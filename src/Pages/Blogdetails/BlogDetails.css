@@ -1,0 +1,44 @@
+.home{
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.image{
+    width: 100%;
+    height: 600px;
+    margin-bottom: 20px;
+}
+@media(max-width:768px){
+    .image{
+        width: 100%;
+        height: 300px;
+
+    }
+}
+.category{
+    position: relative;
+    height: 100vh;
+}
+.blog{
+    position: absolute;
+    top: 40%;
+    left: 90%;
+    transform: translate(-50%,-50%);
+    margin-left: 20px;
+    
+}
+@media(max-width:768px){
+    .blog{
+        position: absolute;
+        top:5%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
+    margin-top: 30px;
+    margin-left: 5px;
+
+    }
+}
